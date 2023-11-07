@@ -1,0 +1,1331 @@
+CRITICAL - 2023-10-28 05:10:43 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:14:59 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:15:01 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:15:03 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:15:37 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:16:25 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:18:29 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:19:52 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:20:35 --> Undefined array key "average_rating_id "
+in APPPATH\Views\employees\index.php on line 45.
+ 1 APPPATH\Views\employees\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:35:43 --> CSRF token verified.
+INFO - 2023-10-28 05:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:38:09 --> CSRF token verified.
+ERROR - 2023-10-28 05:38:09 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\framework-4.3.6\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-10-28 05:38:09 --> Unknown column 'position' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:38:17 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:38:45 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:39:32 --> CSRF token verified.
+INFO - 2023-10-28 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:40:02 --> CSRF token verified.
+ERROR - 2023-10-28 05:40:02 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\framework-4.3.6\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-10-28 05:40:02 --> Unknown column 'position' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:44:59 --> CSRF token verified.
+ERROR - 2023-10-28 05:44:59 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\framework-4.3.6\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-10-28 05:44:59 --> Unknown column 'position' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:45:43 --> CSRF token verified.
+INFO - 2023-10-28 05:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:45:58 --> CSRF token verified.
+INFO - 2023-10-28 05:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:46:16 --> CSRF token verified.
+INFO - 2023-10-28 05:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:46:32 --> CSRF token verified.
+INFO - 2023-10-28 05:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:47:16 --> CSRF token verified.
+INFO - 2023-10-28 05:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:47:27 --> CSRF token verified.
+ERROR - 2023-10-28 05:47:27 --> mysqli_sql_exception: Unknown column 'employment_status' in 'field list' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\framework-4.3.6\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-10-28 05:47:27 --> Unknown column 'employment_status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Employees.php(62): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:49:30 --> CSRF token verified.
+INFO - 2023-10-28 05:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:49:36 --> CSRF token verified.
+INFO - 2023-10-28 05:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:49:51 --> CSRF token verified.
+CRITICAL - 2023-10-28 05:50:33 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:51:09 --> CSRF token verified.
+CRITICAL - 2023-10-28 05:52:00 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 05:53:04 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 05:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:53:28 --> CSRF token verified.
+INFO - 2023-10-28 06:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:08:20 --> CSRF token verified.
+INFO - 2023-10-28 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:15:18 --> Undefined array key "position_name"
+in APPPATH\Views\employees\index.php on line 40.
+ 1 APPPATH\Views\employees\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 06:17:04 --> syntax error, unexpected token ";"
+in APPPATH\Views\employees\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Employees.php(25): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 07:10:40 --> Undefined array key "position_name"
+in APPPATH\Views\employees\index.php on line 40.
+ 1 APPPATH\Views\employees\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:21:07 --> mysqli_sql_exception: Unknown column 'positions.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:21:07 --> Unknown column 'positions.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:21:59 --> mysqli_sql_exception: Unknown column 'positions.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:21:59 --> Unknown column 'positions.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:28:31 --> mysqli_sql_exception: Unknown column 'positions.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:28:31 --> Unknown column 'positions.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:33:59 --> mysqli_sql_exception: Unknown column 'positions.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:33:59 --> Unknown column 'positions.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:35:38 --> mysqli_sql_exception: Unknown column 'positions.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:35:38 --> Unknown column 'positions.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(19): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 07:49:37 --> Undefined array key "position_name"
+in APPPATH\Views\employees\index.php on line 40.
+ 1 APPPATH\Views\employees\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(32): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 07:52:16 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(87): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 07:52:16 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(87): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 11:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:54:11 --> Undefined variable $positions
+in APPPATH\Views\employees\create.php on line 53.
+ 1 APPPATH\Views\employees\create.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(41): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:03:27 --> Undefined variable $positions
+in APPPATH\Views\employees\create.php on line 46.
+ 1 APPPATH\Views\employees\create.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(41): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:06:19 --> Undefined variable $positions
+in APPPATH\Views\employees\create.php on line 46.
+ 1 APPPATH\Views\employees\create.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(41): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:06:55 --> Undefined variable $positions
+in APPPATH\Views\employees\create.php on line 46.
+ 1 APPPATH\Views\employees\create.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(41): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 12:13:22 --> CSRF token verified.
+INFO - 2023-10-28 12:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:13:22 --> Undefined variable $positions
+in APPPATH\Views\employees\create.php on line 47.
+ 1 APPPATH\Views\employees\create.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\framework-4.3.6\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(83): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 12:14:26 --> CSRF token verified.
+CRITICAL - 2023-10-28 12:15:01 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 12:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:40:11 --> Too few arguments to function App\Controllers\Employees::getEdit(), 0 passed in C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Employees.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:42:16 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:42:16 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:47:13 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:47:13 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:48:57 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:48:57 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-28 12:49:30 --> Undefined constant "App\Controllers\employee_id"
+in APPPATH\Controllers\Employees.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:49:52 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:49:52 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:50:22 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:50:22 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:52:19 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:52:19 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:52:22 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:52:22 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:53:45 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:53:45 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(98): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 12:57:09 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 12:57:09 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:00:10 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:00:10 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:08:37 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:08:37 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:15:06 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:15:06 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:17:02 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:17:02 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:19:01 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:19:01 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:27:06 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:27:06 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:28:07 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:28:07 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:33:24 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:33:24 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:33:35 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:33:35 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:47:56 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:47:56 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-28 13:48:05 --> mysqli_sql_exception: Unknown column 'employees.id' in 'where clause' in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-28 13:48:05 --> Unknown column 'employees.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 APPPATH\Controllers\Employees.php(99): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 13:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 13:50:11 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\employees\edit.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Employees.php(101): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getEdit()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 13:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 13:54:58 --> CSRF token verified.
+ERROR - 2023-10-28 13:54:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`position_id`) REFERENCES `positions` (`position_id`)) in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+#6 C:\OSPanel\domains\framework-4.3.6\system\Model.php(756): CodeIgniter\BaseModel->update()
+#7 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(136): CodeIgniter\Model->update()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-10-28 13:54:58 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`position_id`) REFERENCES `positions` (`position_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update()
+ 8 APPPATH\Controllers\Employees.php(136): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 13:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 13:55:37 --> CSRF token verified.
+CRITICAL - 2023-10-28 13:57:38 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+INFO - 2023-10-28 13:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 13:58:10 --> CSRF token verified.
+INFO - 2023-10-28 14:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 14:00:14 --> CSRF token verified.
+INFO - 2023-10-28 14:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 14:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 15:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 15:30:55 --> CSRF token verified.
+INFO - 2023-10-28 15:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 15:33:51 --> CSRF token verified.
+CRITICAL - 2023-10-28 17:57:50 --> Undefined array key "rating_id"
+in APPPATH\Views\rating\index.php on line 20.
+ 1 APPPATH\Views\rating\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\rating\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ratings.php(22): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-10-28 17:59:42 --> Undefined array key "rating_id"
+in APPPATH\Views\rating\index.php on line 20.
+ 1 APPPATH\Views\rating\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\rating\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ratings.php(22): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-10-28 18:00:44 --> Undefined array key "first_nameШнипкоІванівна"
+in APPPATH\Views\rating\index.php on line 21.
+ 1 APPPATH\Views\rating\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\rating\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ratings.php(22): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-10-28 18:01:20 --> Undefined variable $positionName
+in APPPATH\Views\rating\index.php on line 25.
+ 1 APPPATH\Views\rating\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\rating\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ratings.php(22): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')

@@ -1,0 +1,267 @@
+ERROR - 2023-11-06 19:03:39 --> mysqli_sql_exception: Table 'users' already exists in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\app\Database\Migrations\2023-11-06-185516_CreateUserTable.php(39): CodeIgniter\Database\Forge->createTable()
+#5 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUserTable->up()
+#6 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\OSPanel\domains\personnel_management\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\OSPanel\domains\personnel_management\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\OSPanel\domains\personnel_management\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\OSPanel\domains\personnel_management\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-06 19:31:57 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing column 'id' for constraint 'users_role_id_foreign' in the referenced table 'roles' in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\app\Database\Migrations\2023-11-06-193132_CreateUserTable.php(41): CodeIgniter\Database\Forge->createTable()
+#5 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUserTable->up()
+#6 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\OSPanel\domains\personnel_management\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\OSPanel\domains\personnel_management\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\OSPanel\domains\personnel_management\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\OSPanel\domains\personnel_management\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-06 19:37:03 --> mysqli_sql_exception: Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'users_role_id_foreign' are incompatible. in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\app\Database\Migrations\2023-11-06-193132_CreateUserTable.php(41): CodeIgniter\Database\Forge->createTable()
+#5 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUserTable->up()
+#6 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\OSPanel\domains\personnel_management\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\OSPanel\domains\personnel_management\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\OSPanel\domains\personnel_management\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\OSPanel\domains\personnel_management\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-06 19:38:05 --> mysqli_sql_exception: Referencing column 'role_id' and referenced column 'id' in foreign key constraint 'users_role_id_foreign' are incompatible. in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\app\Database\Migrations\2023-11-06-193132_CreateUserTable.php(41): CodeIgniter\Database\Forge->createTable()
+#5 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUserTable->up()
+#6 C:\OSPanel\domains\personnel_management\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\OSPanel\domains\personnel_management\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\OSPanel\domains\personnel_management\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\OSPanel\domains\personnel_management\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\OSPanel\domains\personnel_management\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-11-06 20:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:04:33 --> CSRF token verified.
+INFO - 2023-11-06 20:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:05:05 --> CSRF token verified.
+INFO - 2023-11-06 20:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:14:50 --> CSRF token verified.
+INFO - 2023-11-06 20:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:15:14 --> CSRF token verified.
+INFO - 2023-11-06 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:23:41 --> CSRF token verified.
+INFO - 2023-11-06 20:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:27:06 --> CSRF token verified.
+INFO - 2023-11-06 20:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:29:41 --> CSRF token verified.
+INFO - 2023-11-06 20:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:32:26 --> CSRF token verified.
+ERROR - 2023-11-06 20:32:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\personnel_management\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\personnel_management\app\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-11-06 20:32:26 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-06 20:36:02 --> CSRF token verified.
+ERROR - 2023-11-06 20:36:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\personnel_management\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\personnel_management\app\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-11-06 20:36:03 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-06 20:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:36:23 --> CSRF token verified.
+ERROR - 2023-11-06 20:36:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\personnel_management\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\personnel_management\app\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-11-06 20:36:24 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-06 20:44:27 --> CSRF token verified.
+ERROR - 2023-11-06 20:44:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\OSPanel\domains\personnel_management\system\BaseModel.php(692): CodeIgniter\Model->insert()
+#8 C:\OSPanel\domains\personnel_management\app\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#14 {main}
+CRITICAL - 2023-11-06 20:44:27 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`users`, CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Users.php(42): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->postregistration()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-06 20:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:44:45 --> CSRF token verified.
+INFO - 2023-11-06 20:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:44:58 --> CSRF token verified.
+INFO - 2023-11-06 20:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:51:26 --> CSRF token verified.
+INFO - 2023-11-06 20:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:07:39 --> CSRF token verified.
+INFO - 2023-11-06 21:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:13:01 --> CSRF token verified.
+INFO - 2023-11-06 21:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:13:28 --> CSRF token verified.
+INFO - 2023-11-06 21:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:13:45 --> CSRF token verified.
+INFO - 2023-11-06 21:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:14:03 --> CSRF token verified.
+INFO - 2023-11-06 21:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:14:16 --> CSRF token verified.
+INFO - 2023-11-06 21:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:15:11 --> CSRF token verified.
+INFO - 2023-11-06 21:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:29:14 --> CSRF token verified.
+INFO - 2023-11-06 21:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:33:40 --> CSRF token verified.
+INFO - 2023-11-06 21:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:34:09 --> CSRF token verified.
+INFO - 2023-11-06 21:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 21:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 21:36:27 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(9): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')

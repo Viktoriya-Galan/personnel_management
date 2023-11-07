@@ -1,0 +1,122 @@
+ERROR - 2023-10-22 19:16:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(174): mysqli->real_connect()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 C:\OSPanel\domains\framework-4.3.6\app\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-22 19:16:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+ERROR - 2023-10-22 19:18:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php(174): mysqli->real_connect()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\framework-4.3.6\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\OSPanel\domains\framework-4.3.6\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\OSPanel\domains\framework-4.3.6\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 C:\OSPanel\domains\framework-4.3.6\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\OSPanel\domains\framework-4.3.6\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 C:\OSPanel\domains\framework-4.3.6\app\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+#6 C:\OSPanel\domains\framework-4.3.6\app\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+#7 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\framework-4.3.6\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\framework-4.3.6\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\framework-4.3.6\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-10-22 19:18:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Models\EmployeesModel.php(43): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Employees.php(12): App\Models\EmployeesModel->getEmployees()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-22 19:18:16 --> Invalid file: "personnel_management/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Employees.php(16): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-22 19:19:36 --> Invalid file: "personnel_management/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Employees.php(16): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-22 19:20:19 --> Invalid file: "personnel_management/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Employees.php(16): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\framework-4.3.6\\public\\index.php')

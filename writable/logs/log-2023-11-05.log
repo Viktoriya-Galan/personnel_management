@@ -1,0 +1,729 @@
+ERROR - 2023-11-05 14:04:42 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 14:04:42 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 14:04:43 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 14:04:43 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 14:07:32 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 14:07:32 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:14:26 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:17:55 --> Unclosed '{' on line 12
+in APPPATH\Controllers\Employees.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(264): class_exists()
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(115): CodeIgniter\Router\AutoRouterImproved->scanControllers()
+ 6 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouterImproved->getRoute()
+ 7 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute()
+ 8 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:18:06 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:18:24 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:19:09 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:19:13 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 15:27:00 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 15:27:00 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 15:27:00 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 15:27:00 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 15:28:56 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 15:28:56 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 15:32:21 --> mysqli_sql_exception: Table 'personnel_management.averageratings' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 15:32:21 --> Table 'personnel_management.averageratings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:35:20 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 15:38:18 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(37): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:59:03 --> CSRF token verified.
+INFO - 2023-11-05 15:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:06:49 --> Allowed fields must be specified for model: "App\Models\AverageRatingsModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields()
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 4 APPPATH\Controllers\Ratings.php(47): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->calculateAverageRating()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 17:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:22:44 --> CSRF token verified.
+INFO - 2023-11-05 17:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:23:02 --> CSRF token verified.
+INFO - 2023-11-05 17:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:24:39 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 17:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:52:02 --> Call to undefined method App\Models\RatingsModel::getRatingsForEmployee
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AverageRatings.php(20): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AverageRatings->calculateAverageRating()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 17:57:16 --> Call to undefined method App\Models\RatingsModel::getRatingsForEmployee
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AverageRatings.php(21): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AverageRatings->calculateAverageRating()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 17:58:33 --> Call to undefined method App\Models\RatingsModel::getRatingsForEmployee
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AverageRatings.php(21): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AverageRatings->calculateAverageRating()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 18:10:22 --> Unmatched '}'
+in APPPATH\Controllers\AverageRatings.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 18:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:58:57 --> CSRF token verified.
+INFO - 2023-11-05 18:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:07:01 --> CSRF token verified.
+INFO - 2023-11-05 19:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:07:22 --> CSRF token verified.
+INFO - 2023-11-05 19:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:08:23 --> CSRF token verified.
+INFO - 2023-11-05 19:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 19:08:53 --> CSRF token verified.
+INFO - 2023-11-05 19:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 19:08:57 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 19:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 19:18:34 --> Undefined variable $averageRatings
+in APPPATH\Views\employees\index.php on line 62.
+ 1 APPPATH\Views\employees\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(51): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 19:29:12 --> CSRF token verified.
+INFO - 2023-11-05 19:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-05 20:21:30 --> mysqli_sql_exception: Table 'personnel_management.employmentstatuses' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 20:21:30 --> Table 'personnel_management.employmentstatuses' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 20:21:35 --> mysqli_sql_exception: Table 'personnel_management.employmentstatuses' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 20:21:35 --> Table 'personnel_management.employmentstatuses' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 20:21:36 --> mysqli_sql_exception: Table 'personnel_management.employmentstatuses' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 20:21:36 --> Table 'personnel_management.employmentstatuses' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 20:23:36 --> mysqli_sql_exception: Table 'personnel_management.employmentstatuses' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 20:23:36 --> Table 'personnel_management.employmentstatuses' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Employees.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+ERROR - 2023-11-05 20:34:05 --> mysqli_sql_exception: Table 'personnel_management.employmentstatuses' doesn't exist in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\OSPanel\domains\personnel_management\app\Controllers\EmploymentStatuses.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\EmploymentStatuses->getIndex()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#12 {main}
+CRITICAL - 2023-11-05 20:34:05 --> Table 'personnel_management.employmentstatuses' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\EmploymentStatuses.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\EmploymentStatuses->getIndex()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 20:40:06 --> Undefined array key "employment_status_id "
+in APPPATH\Views\statuses\index.php on line 12.
+ 1 APPPATH\Views\statuses\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\statuses\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\EmploymentStatuses.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\EmploymentStatuses->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 21:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:22:22 --> CSRF token verified.
+INFO - 2023-11-05 21:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:31:16 --> CSRF token verified.
+INFO - 2023-11-05 21:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:31:45 --> CSRF token verified.
+INFO - 2023-11-05 21:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:33:05 --> CSRF token verified.
+INFO - 2023-11-05 21:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:34:49 --> CSRF token verified.
+INFO - 2023-11-05 21:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 21:47:58 --> Undefined array key "object_id"
+in APPPATH\Views\employees\create.php on line 79.
+ 1 APPPATH\Views\employees\create.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\employees\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Employees.php(82): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->getCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 21:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:51:48 --> CSRF token verified.
+INFO - 2023-11-05 21:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:52:10 --> CSRF token verified.
+INFO - 2023-11-05 21:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 21:52:26 --> CSRF token verified.
+INFO - 2023-11-05 22:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:14:46 --> CSRF token verified.
+INFO - 2023-11-05 22:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 22:14:46 --> Undefined variable $employees
+in APPPATH\Views\rating\create.php on line 19.
+ 1 APPPATH\Views\rating\create.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\personnel_management\\app\\Views\\rating\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ratings.php(67): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ratings->postCreate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:17:40 --> CSRF token verified.
+INFO - 2023-11-05 22:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:18:22 --> CSRF token verified.
+INFO - 2023-11-05 22:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 22:20:17 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+CRITICAL - 2023-11-05 22:21:35 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:21:54 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:21:54 --> Invalid file: "departments/success.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Departments.php(53): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Departments->postCreate()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:23:16 --> CSRF token verified.
+INFO - 2023-11-05 22:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:37:59 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:37:59 --> Invalid file: "positions/success.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Positions.php(58): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Positions->postCreate()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:38:42 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:38:42 --> Invalid file: "positions/success.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Positions.php(58): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Positions->postCreate()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:39:13 --> CSRF token verified.
+INFO - 2023-11-05 22:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:39:53 --> CSRF token verified.
+INFO - 2023-11-05 22:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:49:38 --> CSRF token verified.
+INFO - 2023-11-05 22:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:50:38 --> CSRF token verified.
+INFO - 2023-11-05 22:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 22:50:49 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:51:08 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:51:08 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 4 APPPATH\Controllers\TradeObjects.php(54): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TradeObjects->postCreate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:55:55 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:55:55 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 4 APPPATH\Controllers\TradeObjects.php(54): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TradeObjects->postCreate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:56:03 --> CSRF token verified.
+CRITICAL - 2023-11-05 22:56:03 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert()
+ 4 APPPATH\Controllers\TradeObjects.php(54): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TradeObjects->postCreate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-05 22:57:41 --> CSRF token verified.
+INFO - 2023-11-05 22:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:58:06 --> CSRF token verified.
+INFO - 2023-11-05 22:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 22:58:42 --> CSRF token verified.
