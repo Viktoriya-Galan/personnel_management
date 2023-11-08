@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16716856-d9a8-45bc-8d5c-f6c35b59c771" name="Changes" comment="&#10;login capability added" />
+    <list default="true" id="16716856-d9a8-45bc-8d5c-f6c35b59c771" name="Changes" comment="&#10;login capability added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,7 @@
       <workItem from="1698512269939" duration="10000" />
       <workItem from="1699384715356" duration="257000" />
       <workItem from="1699390376816" duration="508000" />
-      <workItem from="1699392110713" duration="330000" />
+      <workItem from="1699392110713" duration="790000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;login capability added">
       <created>1699384811002</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699392395839</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&#10;login capability added">
+      <created>1699392492579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699392492579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
