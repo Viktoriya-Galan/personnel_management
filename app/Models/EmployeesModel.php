@@ -44,4 +44,10 @@ class EmployeesModel extends Model
         }
         return $this->find($employee_id);
     }
+     // фільтрація працівників
+    public function getEmployeesByStatus($statusId)
+{
+    return $this->where('employment_status_id', $statusId)->findAll();
+}
+
 }

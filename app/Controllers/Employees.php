@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Controllers;
-
 use App\Controllers\BaseController;
 use App\Models\EmployeesModel;
 use App\Models\PositionsModel;
@@ -14,49 +12,57 @@ class Employees extends BaseController
 {
     public function getIndex()
     {
-        $employeeModel = Model(EmployeesModel::class);
-        $positionModel = Model(PositionsModel::class);
-        $ratingModel = Model(RatingsModel::class);
-        $employmentStatusModel = Model(EmploymentStatusesModel::class);
-        $departmentsModel = model(DepartmentsModel::class);
-        $tradeObjectsModel = model(TradeObjectsModel::class);
-         
+        $employeeModel = new EmployeesModel();
+        $positionModel = new PositionsModel();
+        $ratingModel = new RatingsModel();
+        $employmentStatusModel = new EmploymentStatusesModel();
+        $departmentsModel = new DepartmentsModel();
+        $tradeObjectsModel = new TradeObjectsModel();
+    
         $employees = $employeeModel->getEmployees();
-        $positions = $positionModel->findAll(); // Отримуємо всі позиції
-        $employmentStatus = $employmentStatusModel->findAll(); // Отримуємо всі позиції
+        $positions = $positionModel->findAll();
+        $employmentStatus = $employmentStatusModel->findAll();
         $departments = $departmentsModel->findAll();
         $tradeObjects = $tradeObjectsModel->findAll();
-        
+    
+        // РОЗРАХУНОК СЕРЕДНЬОЇ ОЦІНКИ ПРАЦІВНИКА
+        $employeeRatings = [];
+        foreach ($employees as $employee) {
+            $employee_id = $employee['employee_id'];
+            $averageRating = $ratingModel
+                ->select('AVG(rating) as average_rating')
+                ->where('employee_id', $employee_id)
+                ->get()
+                ->getRowArray();
+    
+            $employeeRatings[$employee_id] = $averageRating['average_rating'];
+        }
+    
+        $data['employeeRatings'] = $employeeRatings;
+    
+        //////////////////////////////////////////////
+    
+        $data['title'] = 'Список працівників';
         $data['employees'] = $employees;
         $data['positions'] = $positions;
         $data['employmentStatus'] = $employmentStatus;
         $data['departments'] = $departments;
         $data['tradeObjects'] = $tradeObjects;
-
-
-           // РОЗРАХУНОК СЕРЕДНЬОЇ ОЦІНКИ ПРАЦІВНИКА
-    $employeeRatings = [];
-    foreach ($employees as $employee) {
-        $employee_id = $employee['employee_id'];
-        $averageRating = $ratingModel
-            ->select('AVG(rating) as average_rating')
-            ->where('employee_id', $employee_id)
-            ->get()
-            ->getRowArray();
-
-        $employeeRatings[$employee_id] = $averageRating['average_rating'];
-    }
-
-    $data['employeeRatings'] = $employeeRatings;
-
-           //////////////////////////////////////////////
-
-
-        $data['title'] = 'Список працівників';
+    
+        
+    
+        // Фільтрація працівників 
+       
+        $statusFilter = $this->request->getGet('status_id'); // Отримання значення статусу з фільтра
+        if ($statusFilter) {
+            $data['employees'] = $employeeModel->getEmployeesByStatus($statusFilter);
+        }
+    
         return view('templates/header', $data)
             . view('employees/index', $data)
             . view('templates/footer');
     }
+    
     
 
     public function getCreate(){

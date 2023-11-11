@@ -1,12 +1,18 @@
 <div class="container">
-<h2 class="alert alert-danger">
-    <?=session()->getFlashdata('error')?>
-</h2>
-<p class="allert allert-warning">
-    <?=validation_list_errors()?>
-</p>
 
-<form action="/users/login" method="post">
+<?php if (session()->has('error')) : ?>
+        <h2 class="alert alert-danger">
+            <?= session()->getFlashdata('error'); ?>
+        </h2>
+    <?php endif; ?>
+
+    <?php if (session()->has('errors')) : ?>
+        <p class="alert alert-warning">
+            <?= validation_list_errors(); ?>
+        </p>
+    <?php endif; ?>
+
+<form class="row g-3" action="/users/login" method="post">
 <?=csrf_field()?>
 <div class="mb-3">
     <label for="login" class="form-label">Логін</label>

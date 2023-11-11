@@ -1,6 +1,8 @@
 <h1>Оцінку додано</h1>
 <button class="btn btn-primary"   > 
-<a href="<?= site_url('employees') ?>">Головна сторінка</a>
+<a class="btn btn-success my-button" href="<?= site_url('rating') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+<a class="btn btn-success my-button" href="<?= site_url('employees') ?>">Працівники</a>
 
   </button>
 

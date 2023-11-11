@@ -1,13 +1,21 @@
-
-
-<h2 class="alter alter-error">
-   <?= session()->getFlashdata('error'); ?>
-</h2>
-<p class="alert alert-warning">
+<div class="container">
+    <div>
+<a class="btn btn-success my-button" href="<?= site_url('employees') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+    </div>
+    <?php if (session()->has('error')) : ?>
+        <h2 class="alert alert-danger">
+            <?= session()->getFlashdata('error'); ?>
+        </h2>
+    <?php endif; ?>
+    <?php if (session()->has('errors')) : ?>
+<p class="alert alert-warning" >
    <?= \Config\Services::validation()->listErrors(); ?>
 </p>
+    <?php endif; ?>
 
-<form method="post" action="/employees/edit/<?= $employee['employee_id']; ?>">
+
+<form class="form_Edit_Employee" method="post" action="/employees/edit/<?= $employee['employee_id']; ?>">
    <?= csrf_field(); ?>
 
    <div class="form-group">
@@ -82,6 +90,7 @@
             <option value="<?= $object['trade_object_id'] ?>"><?= $object['object_name'] ?></option>
         <?php endforeach; ?>
    <div class="form-group">
+        </select>
       <label for="notes" class="control-label">Коментар</label>
       <input type="text-area" size="100" class="form-control" id="notes" name="notes" value="<?=$employee["notes"]; ?>"/>
    </div>
@@ -89,3 +98,4 @@
 
    <button type="submit" class="btn btn-success">Зберегти</button>
 </form>
+</div>

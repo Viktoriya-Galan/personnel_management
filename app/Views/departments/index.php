@@ -1,11 +1,16 @@
-<button class="btn btn-primary" type="button"  > 
- <a style="text-decoration: none; color: white;" href="<?= site_url('departments/create/') ?>">
+<link rel="stylesheet" type="text/css" href="<?=site_url('css\styles.css') ?>">
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна сторінка</a>
+<button  type="button" class="btn btn-success my-button" > 
+<a style="text-decoration: none; color: white;" href="<?= site_url('departments/create/') ?>">
   Додати відділ</a>
   </button>
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('/') ?>">Головна </a>
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('employees') ?>">Працівники</a>
+
 <?php if (!empty($departments) && is_array($departments)): ?>
-    <table class="table table-bordered">
+    <table class="table table-success table-striped">
         <thead>
-            <tr>
+            <tr  class="tr-table-success">
                 <th>ID</th>
                 <th>Назва відділу</th>
             </tr>

@@ -1,10 +1,18 @@
 <div class="container">
-<h2 class="alert alert-danger">
-    <?=session()->getFlashdata('error')?>
-</h2>
-<p class="allert allert-warning">
-    <?=validation_list_errors()?>
-</p>
+<?php if (session()->has('error')) : ?>
+        <h2 class="alert alert-danger">
+            <?= session()->getFlashdata('error'); ?>
+        </h2>
+    <?php endif; ?>
+
+    <?php if (session()->has('errors')) : ?>
+        <p class="alert alert-warning">
+            <?= validation_list_errors(); ?>
+        </p>
+    <?php endif; ?>
+    <a class="btn btn-success my-button" href="<?= site_url('rating') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+
 
 <form action="/users/registration" method="post">
 <?=csrf_field()?>

@@ -1,9 +1,17 @@
+<link rel="stylesheet" type="text/css" href="<?=site_url('css\styles.css') ?>">
+
+
+  <a class="btn btn-success my-button"  href="<?= site_url('tradeObjects/create') ?>">Додати Магазин</a>
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('/') ?>">Головна </a>
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('employees') ?>">Працівники</a>
+
 <?php if (!empty($tradeObjects) && is_array($tradeObjects)): ?>
-    <table class="table table-bordered">
+    <table class="table table-success table-striped">
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Назва TT</th>
+                <th>Назва Магазину</th>
+                <th>Адреса</th>
             </tr>
         </thead>
         <tbody>

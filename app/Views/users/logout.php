@@ -8,6 +8,6 @@
 <script>
     setTimeout(function () {
         window.location.href = '/';
-    }, 3000)
+    }, 2000)
 </script>
 <?php $this->endSection()?>

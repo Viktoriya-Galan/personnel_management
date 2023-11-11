@@ -46,7 +46,7 @@ $routes->get('/departments/index', 'Departments::getIndex');
 $routes->get('/departments/create', 'Departments::getCreate');
 $routes->post('/departments/create', 'Departments::postCreate');
 
-$routes->get('/tradeObjects/index', 'TradeObjects::getIndex');
+$routes->get('/tradeObjects', 'TradeObjects::getIndex');
 $routes->get('/tradeObjects/create', 'TradeObjects::getCreate');
 $routes->post('/tradeObjects/create', 'TradeObjects::postCreate');
 

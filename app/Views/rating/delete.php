@@ -1,7 +1,10 @@
+
 <div class="container">
+<a class="btn btn-success my-button" href="<?= site_url('rating') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+<a class="btn btn-success my-button" href="<?= site_url('employees') ?>">Працівники</a>
 
 <h2>Підтвердіть видалення оцінки</h2>
-
 <table class="table table-striped">
 <tbody>
    <tr>

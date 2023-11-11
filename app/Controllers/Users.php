@@ -67,8 +67,8 @@ class Users extends BaseController
         if (!$this->validateData($post,$rules)) {
             $data['title']='log in';
             return view ('templates/header',$data )
-            .view ( 'users/login')
-            .view ( 'templates/footer' );
+            .view ('users/login')
+            .view ('templates/footer');
     }
     $isCorrect = $userModel->checkloginPassword($post['login'], $post['password']);
     if($isCorrect){

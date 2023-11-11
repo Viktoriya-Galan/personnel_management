@@ -1,13 +1,23 @@
+
 <div class="container">
-    <h2 class="alert alert-danger">
-        <?= session()->getFlashdata('error'); ?>
-    </h2>
-    <p class="alert alert-warning">
-        <?= validation_list_errors(); ?>
-    </p>
+    <div>
+<a class="btn btn-success my-button" href="<?= site_url('positions') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+<a class="btn btn-success my-button" href="<?= site_url('employees') ?>">Працівники</a>
+    </div>
+        <?php if (session()->has('error')) : ?>
+        <h2 class="alert alert-danger">
+            <?= session()->getFlashdata('error'); ?>
+        </h2>
+    <?php endif; ?>
 
+    <?php if (session()->has('errors')) : ?>
+        <p class="alert alert-warning">
+            <?= validation_list_errors(); ?>
+        </p>
+    <?php endif; ?>
 
-    <form method="post" action="/positions/create">
+    <form method="post" class="mb-3 row" action="/positions/create">
    <?= csrf_field(); ?>
 
    <div class="form-group">
@@ -22,6 +32,6 @@
    </div>
 
 
-   <button type="submit" class="btn btn-success">Зберегти</button>
+   <button type="submit" class="btn btn-success my-button">Зберегти</button>
 </form>
-<a href="<?= site_url('employees') ?>">Головна сторінка</a>
+

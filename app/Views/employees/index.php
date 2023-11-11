@@ -1,13 +1,42 @@
+<link rel="stylesheet" type="text/css" href="<?=site_url('css\styles.css') ?>">
 <div class="col">
-    
-<button class="btn btn-primary" type="button"  > 
- <a style="text-decoration: none; color: white;" href="<?= site_url('employees/create/') ?>">
+   
+ 
+<a class="btn btn-success" style="width: 160px" href="<?= site_url('employees/create/') ?>">
   Новий працівник</a>
-  </button>
+ <a class="btn btn-success" style="width: 150px"  href="<?= site_url('/') ?>">
+  Головна</a>
+ <a class="btn btn-success" style="width: 150px" href="<?= site_url('departments/index') ?>">
+  відділи</a>
+   <a class="btn btn-success"style="width: 150px" href="<?= site_url('positions') ?>">
+  посади</a>
+ <a class="btn btn-success" style="width: 150px" href="<?= site_url('rating') ?>">
+  оцінки</a> 
+  <a class="btn btn-success" style="width: 150px" href="<?= site_url('tradeObjects') ?>">
+  торгові обєкти</a> 
+
+<!-- Фыльтрація--------------------------------------------------------- -->
+  <div class="col">
+   <form method="get" action="<?= site_url('employees') ?>">
+      <div class="mb-3">
+         <label for="employmentStatusFilter" class="form-label">Обрати статус зайнятості:</label>
+         <select class="form-select" id="employmentStatusFilter" name="status_id">
+            <option value="" selected>Усі статуси</option>
+            <?php foreach ($employmentStatus as $status): ?>
+               <option value="<?= esc($status['employment_status_id']) ?>" <?= esc($_GET['status_id'] ?? '') === $status['employment_status_id'] ? 'selected' : '' ?>>
+                  <?= esc($status['status']) ?>
+               </option>
+            <?php endforeach; ?>
+         </select>
+      </div>
+      <button type="submit" class="btn btn-success">Фільтрувати</button>
+   </form>
+
+<!-- Табличка----------------------------------------------------- -->
    <?php if (!empty($employees) && is_array($employees)): ?>
-      <table class="table table-bordered">
+      <table class="table table-success table-striped">
          <thead>
-            <tr>
+            <tr class="tr-table-success">
                <th>ID співробітника</th>
                <th>Прізвище</th>
                <th>Ім'я</th>
@@ -23,6 +52,7 @@
                <th>Торговий об`єкт</th>
                <th>Середня оцінка</th>
                <th>Коментар</th>
+               <th>Додатково</th>
             </tr>
          </thead>
          <tbody>
@@ -118,7 +148,7 @@
                   <td> 
 
 
-                     <a href="<?= site_url('employees/edit/' . $employee['employee_id']) ?>">
+                     <a class="btn btn-success" href="<?= site_url('employees/edit/' . $employee['employee_id']) ?>">
                      Редагувати</a>
                   </td>
 
@@ -129,4 +159,5 @@
    <?php else: ?>
       <h2>Співробітники не знайдені</h2>
    <?php endif; ?>
+</div>
 </div>

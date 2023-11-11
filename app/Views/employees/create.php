@@ -1,10 +1,19 @@
-<h2 class="alter alter-error">
-   <?= session()->getFlashdata('error'); ?>
-</h2>
-<p class="alter alter-warning">
-   <?=validation_list_errors(); ?>
-</p>
-<form method="post" action="/employees/create">
+<div class="container">
+<a class="btn btn-success my-button" href="<?= site_url('employees') ?>">Назад</a>
+<a class="btn btn-success my-button" href="<?= site_url('/') ?>">Головна</a>
+
+    <?php if (session()->has('error')) : ?>
+        <h2 class="alert alert-danger">
+            <?= session()->getFlashdata('error'); ?>
+        </h2>
+    <?php endif; ?>
+
+    <?php if (session()->has('errors')) : ?>
+        <p class="alert alert-warning">
+            <?= validation_list_errors(); ?>
+        </p>
+    <?php endif; ?>
+<form class="form_Edit_Employee" method="post" class="mb-3 row" action="/employees/create">
    <?= csrf_field(); ?>
    <div class="form-group">
       <label for="last_name" class="control-label">Прізвище</label>
@@ -90,4 +99,4 @@
 
    <button type="submit" class="btn btn-success">Зберегти</button>
 </form>
-<a href="<?= site_url('employees') ?>">Головна сторінка</a>
+</div>

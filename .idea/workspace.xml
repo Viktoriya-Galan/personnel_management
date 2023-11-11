@@ -6,6 +6,58 @@
   <component name="ChangeListManager">
     <list default="true" id="16716856-d9a8-45bc-8d5c-f6c35b59c771" name="Changes" comment="&#10;login capability added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Config/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Employees.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/TradeObjects.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/TradeObjects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/EmployeesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/EmployeesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/departments/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/departments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/departments/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/employees/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/employees/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/employees/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/employees/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/employees/successEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/successEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/positions/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/positions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/positions/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/rating/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/rating/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/rating/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/rating/succesDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/succesDelete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/rating/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/statuses/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/users/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/users/successLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/successLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/users/successregistration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/successregistration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306115.057208.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306116.607365.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306116.776768.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306155.117151.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306158.844956.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306161.877213.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306164.221443.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306164.644509.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306395.119617.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306399.900299.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306404.361619.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306421.071994.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306423.914091.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306449.759059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306453.528134.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306456.034620.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306458.600224.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306458.975608.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306462.635740.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306849.259062.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +87,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/OSPanel/domains/HR-personnel_management",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/personnel_management&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +118,9 @@
       <workItem from="1699384715356" duration="257000" />
       <workItem from="1699390376816" duration="508000" />
       <workItem from="1699392110713" duration="790000" />
+      <workItem from="1699651438440" duration="299000" />
+      <workItem from="1699695512977" duration="3827000" />
+      <workItem from="1699699416704" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;login capability added">
       <created>1699384811002</created>

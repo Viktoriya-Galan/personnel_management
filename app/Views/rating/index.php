@@ -1,17 +1,20 @@
 
-<button class="btn btn-primary" type="button"  > 
- <a style="text-decoration: none; color: white;" href="<?= site_url('rating/create/') ?>">
+ <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('rating/create/') ?>">
   Додати оцінку</a>
-  </button>
+
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('/') ?>">Головна </a>
+  <a class="btn btn-success my-button" style="margin: 10px" href="<?= site_url('employees') ?>">Працівники</a>
 
 <?php if (!empty($ratings) && is_array($ratings)): ?>
-    <table class="table table-bordered">
+    <table class="table table-success table-striped">
         <thead>
-            <tr>
+            <tr class="tr-table-success">
                 <th>ID</th>
+                <th>ID працівника</th>
                 <th>Працівник</th>
                 <th>Оцінки</th>
                 <th>Дата оцінки</th>
+                <th>Додатково</th>
             </tr>
         </thead>
         <tbody>
@@ -33,11 +36,12 @@
 </td>
                     <td><?= $rating['rating'] ?></td>
                     <td><?= $rating['rating_date'] ?></td>
-                </tr>
-                <td> 
-                     <a href="<?= site_url('rating/delete/'.$rating['rating_id']) ?>">
+                    <td> 
+                     <a class="btn btn-success" href="<?= site_url('rating/delete/'.$rating['rating_id']) ?>">
                      Видалити</a>
                   </td>
+                </tr>
+                
             <?php endforeach; ?>
         </tbody>
     </table>
