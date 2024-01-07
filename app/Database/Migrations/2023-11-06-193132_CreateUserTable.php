@@ -34,8 +34,7 @@ class CreateUserTable extends Migration
             ]
         ]);
 
-        $this->forge->addPrimaryKey('id')
-        ->addUniqueKey('email');
+        $this->forge->addPrimaryKey('id')->addUniqueKey('email');
         $this->forge->addForeignKey('role_id', 'roles', 'id', 'CASCADE', 'CASCADE');
         $this->forge->createTable('users');
     }

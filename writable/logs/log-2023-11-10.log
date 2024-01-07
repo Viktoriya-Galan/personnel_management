@@ -1,0 +1,155 @@
+INFO - 2023-11-10 21:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:55:01 --> CSRF token verified.
+INFO - 2023-11-10 22:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:08:04 --> CSRF token verified.
+INFO - 2023-11-10 22:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:28:09 --> CSRF token verified.
+INFO - 2023-11-10 22:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:38:39 --> CSRF token verified.
+INFO - 2023-11-10 22:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:38:56 --> CSRF token verified.
+INFO - 2023-11-10 22:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:26:59 --> CSRF token verified.
+CRITICAL - 2023-11-10 23:27:38 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:27:43 --> CSRF token verified.
+CRITICAL - 2023-11-10 23:28:07 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:28:19 --> CSRF token verified.
+CRITICAL - 2023-11-10 23:29:00 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:29:06 --> CSRF token verified.
+INFO - 2023-11-10 23:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:32:58 --> CSRF token verified.
+ERROR - 2023-11-10 23:32:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_3` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`)) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(756): CodeIgniter\BaseModel->update()
+#7 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(195): CodeIgniter\Model->update()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-11-10 23:32:58 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_3` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update()
+ 8 APPPATH\Controllers\Employees.php(195): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:34:38 --> CSRF token verified.
+ERROR - 2023-11-10 23:34:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_3` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`)) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(756): CodeIgniter\BaseModel->update()
+#7 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(195): CodeIgniter\Model->update()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-11-10 23:34:38 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_3` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update()
+ 8 APPPATH\Controllers\Employees.php(195): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:35:59 --> CSRF token verified.
+ERROR - 2023-11-10 23:35:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_4` FOREIGN KEY (`trade_object_id`) REFERENCES `trade_objects` (`trade_object_id`)) in C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\personnel_management\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\personnel_management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\personnel_management\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\personnel_management\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\OSPanel\domains\personnel_management\system\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+#6 C:\OSPanel\domains\personnel_management\system\Model.php(756): CodeIgniter\BaseModel->update()
+#7 C:\OSPanel\domains\personnel_management\app\Controllers\Employees.php(195): CodeIgniter\Model->update()
+#8 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+#9 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\personnel_management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\personnel_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\personnel_management\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-11-10 23:35:59 --> Cannot add or update a child row: a foreign key constraint fails (`personnel_management`.`employees`, CONSTRAINT `employees_ibfk_4` FOREIGN KEY (`trade_object_id`) REFERENCES `trade_objects` (`trade_object_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update()
+ 8 APPPATH\Controllers\Employees.php(195): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employees->postEdit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\personnel_management\\public\\index.php')
+INFO - 2023-11-10 23:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 23:36:15 --> CSRF token verified.

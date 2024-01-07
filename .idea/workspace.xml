@@ -4,60 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16716856-d9a8-45bc-8d5c-f6c35b59c771" name="Changes" comment="&#10;login capability added">
+    <list default="true" id="16716856-d9a8-45bc-8d5c-f6c35b59c771" name="Changes" comment="Final on 11/11/2023">
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704126.374499.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704140.800151.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704143.354546.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704146.531853.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704152.749980.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704156.408136.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704167.374309.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704184.344447.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704187.444521.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704198.684497.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704202.250740.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704215.749467.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704218.773118.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1699704224.010333.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677477.372053.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677477.611008.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677484.956681.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677500.117604.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677502.716878.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/debugbar/debugbar_1700677510.412991.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/logs/log-2023-11-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/logs/log-2023-11-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/logs/log-2023-11-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/logs/log-2023-11-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session0vcc9imjt6f1s4tviea41ajovd1dkrso" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session138g2500sn085im7tmv3ohhagvosa7b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session322ei31rq03c66dt7krsqdlnqf822jvo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session37k0v0n1vu158dva7e4f53bve1ppg3mb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session3dprdovh8d1et59rj15ut3bisjotf0iv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session49ni4uarjqv77h6ri54ljclna6bogeie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session4gbft4qh4vq89du62omi4q4re3vp76ib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session51qjgk6potqccc8c934i7repc48g5h7p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session61olrfv2t76l94h39os6fglqslriuftt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session74e79r74k865g606g3pvl4t5qttg0k1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session7skgqobbv35e986ibr5rdu0is0ror1bt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session7urj1umpv2lpbnavrc1vr2dmgvmvkdvb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session82hj4530824ff164j8gdna020r3lj6k1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_session8db2b2dc1icbe9vo7ph8p910fko19mpe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessiona2mmro8pjbcthdjflu5rb2doicb6bvvt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionb7p60hpik87difkbqv43gle3204qtr2h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionbmhbkp0qdaekim85u0tk9590bd8e30da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessioncg69kng100kivc5kmav52nkbvss19ee5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionch6ulfvmtg0ulgqussl5l88dfkug3i39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessione30pok201j2jlrc1p20usvjspjrl3jl7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessione9mmdicjqp79nilvc72ljha1m9c7cjns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionfffrjbuqe6q44jogm4lqct06hh41okj6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessiong62nilcfdi5trv7tcsak22i36jvsoipl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionhvnk7o0akal31rf937te9k8p2sardsld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionkr2m7bdamerl2s1shm7m82gtvjam3dl3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionlog9mjnj6rjliqu2gb1lqvicekuo3qn7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionn0hbe0nh6vmpg7ei3g67stqpie91sg1n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionn960atuq6fiolnn3cb8g06793umib844" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionnof9ab610sgth4e99gg1pl34k5ce0f6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessiono63nrte8hia66g5hs29omdv2lpdt4f90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionoer4ctkdi5hb8kl28i71nv36traov700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionrm7gorkp93uou48ccv2qhgkmbfb1uq23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionrqk1gshd0f0i89jc29f2tnl3tgputdk8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessiontfdvp3a6lg3907fj3s3klcfu079ik62f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessiontpnn07o0cf4q0nm7e57bta73je25jua3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionts84spl6icae196n5i78p3au12fcj7o4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writable/session/ci_sessionvvmflhscv2p9571r6ue2j4jg4jas3jlq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Employees.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/TradeObjects.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/TradeObjects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/EmployeesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/EmployeesModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/departments/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/departments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/departments/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/departments/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/employees/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/employees/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/employees/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/employees/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/employees/successEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/employees/successEdit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/positions/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/positions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/positions/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/positions/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/rating/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/rating/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/rating/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/rating/succesDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/succesDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/rating/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/rating/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/statuses/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/templates/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/tradeObjects/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/tradeObjects/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/users/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/users/successLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/successLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/users/successregistration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/users/successregistration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306115.057208.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306116.607365.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306116.776768.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306155.117151.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306158.844956.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306161.877213.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306164.221443.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306164.644509.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306395.119617.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306399.900299.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306404.361619.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306421.071994.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306423.914091.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306449.759059.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306453.528134.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306456.034620.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306458.600224.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306458.975608.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306462.635740.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1699306849.259062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Database/Migrations/2023-11-06-193132_CreateUserTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database/Migrations/2023-11-06-193132_CreateUserTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,24 +99,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/personnel_management&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/OSPanel/domains/personnel_management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,7 +134,11 @@
       <workItem from="1699392110713" duration="790000" />
       <workItem from="1699651438440" duration="299000" />
       <workItem from="1699695512977" duration="3827000" />
-      <workItem from="1699699416704" duration="809000" />
+      <workItem from="1699699416704" duration="1150000" />
+      <workItem from="1699701318953" duration="5000" />
+      <workItem from="1700677429811" duration="235000" />
+      <workItem from="1704657433009" duration="322000" />
+      <workItem from="1704657767661" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;login capability added">
       <created>1699384811002</created>
@@ -164,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699392492579</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final on 11/11/2023">
+      <created>1699700754121</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699700754121</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;login capability added" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;login capability added" />
+    <MESSAGE value="Final on 11/11/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final on 11/11/2023" />
   </component>
 </project>
